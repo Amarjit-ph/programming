@@ -4,11 +4,12 @@ An interview is essentially a structured conversation where one participant asks
 
 ### Steps to follow :
 
-1. Learn a Language - C++
-2. Data Structure & Algorithm
-3. Competetive Coding - Hacker Rank
-4. Theory - Computer Science
-5. End Game - Leet code
+1. Learn a Language - C++ & Python
+2. Data Structure 
+3. Algorithm
+4. Competetive Coding - Hacker Rank
+5. Theory - Computer Science
+6. End Game - Leet code
 
 # Application Procedure
 
