@@ -10,7 +10,7 @@ An interview is essentially a structured conversation where one participant asks
 4. Theory - Computer Science
 5. End Game - Leet code
 
-# Application Prodcedure
+# Application Procedure
 
 Campus
 
