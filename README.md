@@ -41,7 +41,7 @@ Off-Campus
 
 # Preparation Time
 
- - DSA 5 Hours Daily [ Stop Watch ]
+ - DSA 5 Hours Daily
 - Certificate Freetime
 - Development Remaining 
 
