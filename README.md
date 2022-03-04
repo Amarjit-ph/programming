@@ -11,6 +11,8 @@ An interview is essentially a structured conversation where one participant asks
 5. Theory - Computer Science
 6. End Game - Leet code
 
+# Tutorial 
+- Datastructure full course using C/C++ - https://youtu.be/B31LgI4Y4DQ
 # Application Procedure
 
 Campus
