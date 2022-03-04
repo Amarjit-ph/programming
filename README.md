@@ -1,4 +1,4 @@
-# Interview Preperation
+# Interview Preparation
 
 An interview is essentially a structured conversation where one participant asks questions, and the other provides answers.
 
