@@ -274,7 +274,7 @@ int main()
 
 ```
 
-2.CONTINUE
+2.CONTINUE [SKIP]
 
 ```c++
 int main()
