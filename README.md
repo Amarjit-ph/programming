@@ -42,9 +42,12 @@ Off-Campus
 8. Don't fake resume
 9. Don't ask basic question
 
-# Preparation Time
+# Technologies
+- [React Interview Questions & Answers](https://github.com/sudheerj/reactjs-interview-questions)
+- [JavaScript Interview Questions & Answers](https://github.com/Amarjit-ph/javascript-interview-questions)
 
- - DSA 5 Hours Daily
+# Preparation Time
+- DSA 5 Hours Daily
 - Certificate Freetime
 - Development Remaining 
 
