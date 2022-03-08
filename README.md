@@ -51,3 +51,6 @@ Off-Campus
 - Certificate Freetime
 - Development Remaining 
 
+# Resume 
+- Awesome CV - https://github.com/posquit0/Awesome-CV
+
