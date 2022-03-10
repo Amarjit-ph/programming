@@ -15,7 +15,7 @@ An interview is essentially a structured conversation where one participant asks
 - Coding Interview University - https://github.com/jwasham/coding-interview-university
 
 # Tutorial 
-- Datastructure - Full course using C And C++ - https://youtu.be/B31LgI4Y4DQ)
+- Datastructure - Full course using C And C++ - https://youtu.be/B31LgI4Y4DQ
 
 # Application Procedure
 
@@ -46,7 +46,7 @@ Off-Campus
 8. Don't fake resume
 9. Don't ask basic question
 
-# Technologies
+# Technologies Questions
 - [React Interview Questions & Answers](https://github.com/sudheerj/reactjs-interview-questions)
 - [JavaScript Interview Questions & Answers](https://github.com/Amarjit-ph/javascript-interview-questions)
 
