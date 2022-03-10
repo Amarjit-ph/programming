@@ -11,8 +11,12 @@ An interview is essentially a structured conversation where one participant asks
 5. Theory - Computer Science
 6. End Game - Leet code
 
+# Repositories
+- Coding Interview University - https://github.com/jwasham/coding-interview-university
+
 # Tutorial 
-- [Datastructure - Full course using C And C++](https://youtu.be/B31LgI4Y4DQ)
+- Datastructure - Full course using C And C++ - https://youtu.be/B31LgI4Y4DQ)
+
 # Application Procedure
 
 Campus
