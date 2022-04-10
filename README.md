@@ -17,6 +17,9 @@ An interview is essentially a structured conversation where one participant asks
 # Tutorial 
 - Datastructure - Full course using C And C++ - https://youtu.be/B31LgI4Y4DQ
 
+# Preperation
+- Interview.io - https://interviewing.io/
+
 # Application Procedure
 
 Campus
