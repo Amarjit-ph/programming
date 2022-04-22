@@ -27,3 +27,7 @@ Trusted & Easy to Use
 - Crypto as an investment
 - Crypto as a new financial system
 - Crypto as an app platform
+
+# References
+
+- Balaji Srinivasan - https://balajis.com/
