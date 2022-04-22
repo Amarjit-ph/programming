@@ -42,5 +42,5 @@ ARMONK, N.Y., November 3, 2021 - IBM (NYSE: IBM) announced today that it has com
 
 # References
 
-- ONLINE COMPILER - https://www.programiz.com/cpp-programming/online-compiler/
-- https://www.youtube.com/watch?v=IcnpUmq_IbI
+- Online Compiler - https://www.programiz.com/cpp-programming/online-compiler/
+- IBM Company Story - https://www.youtube.com/watch?v=IcnpUmq_IbI
