@@ -1,6 +1,14 @@
-# Interview Preparation
+# Basic Preparation
 
-An interview is essentially a structured conversation where one participant asks questions, and the other provides answers.
+Irrespective of the programming language you choose to learn, the basic concepts of programming are similar across languages. Some of these concepts include:
+
+- Variable Declaration
+- Basic Syntax
+- Data Type and Structures
+- Flow Control Structures (Conditionals and loops)
+- Functional Programming
+- Object-Oriented Programming
+- Debugging
 
 ### Steps to follow :
 
