@@ -28,9 +28,5 @@ Start small, grow big. Here’s a roadmap to guide you through your programming 
 Check out these great tutorials for learning data structures:
 - **Data Structure Full Course (C and C++):** [YouTube Link](https://youtu.be/B31LgI4Y4DQ)
 
-<br/>
-
-
-Feel free to add more content as you progress! Happy coding, and remember that perseverance is key to mastering programming. Keep pushing your limits! 💻✨
-"""
-md"
+### 🏃‍♀️ Keep Moving
+Feel free to add more content as you progress! Happy coding, and remember that perseverance is key to mastering programming. Keep pushing your limits!
