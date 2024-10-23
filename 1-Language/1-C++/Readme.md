@@ -92,7 +92,7 @@ These data types are defined by user itself. Like, defining a class in C++ or a 
 
 [↑ Back to Table of Contents](#table-of-contents)
 
-# Datatype Modifiers
+# Data type Modifiers
 
 Datatype modifiers are used with the built-in data types to modify the length of data that a particular data type can hold.
 
