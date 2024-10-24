@@ -23,7 +23,7 @@ Python is a high-level, interpreted programming language known for its simplicit
 Python is an interpreted, high-level programming language created by Guido van Rossum in 1991. It emphasizes code readability with its notable use of significant whitespace.
 
 ```
-Source code > Interpreter > Execution
+Source code > Interpreter - Execution
 ```
 
 Python is known for its "batteries included" philosophy, meaning it comes with a comprehensive standard library.
@@ -111,7 +111,7 @@ Variable naming rules:
 
 Python supports various types of operators for different operations.
 
-1. Arithmetic Operators
+## 1. Arithmetic Operators
 ```python
 + (addition)
 - (subtraction)
@@ -122,7 +122,7 @@ Python supports various types of operators for different operations.
 ** (exponentiation)
 ```
 
-2. Comparison Operators
+## 2. Comparison Operators
 ```python
 == (equal)
 != (not equal)
@@ -132,14 +132,14 @@ Python supports various types of operators for different operations.
 <= (less than or equal)
 ```
 
-3. Logical Operators
+## 3. Logical Operators
 ```python
 and
 or
 not
 ```
 
-4. Assignment Operators
+## 4. Assignment Operators
 ```python
 =  (simple assignment)
 += (add and assign)
@@ -151,19 +151,20 @@ not
 **= (exponent and assign)
 ```
 
-5. Identity Operators
+## 5. Identity Operators
 ```python
 is
 is not
 ```
 
-6. Membership Operators
+## 6. Membership Operators
 ```python
 in
 not in
 ```
 
 # Control Flow
+Control flow statements in Python allow you to regulate the order in which your code is executed. Here's a breakdown of the main ones:
 
 ## Conditional Statements
 
@@ -189,7 +190,7 @@ else:
 
 ## Loops
 
-1. for loop
+### 1. for loop
 ```python
 # Iterating over a sequence
 for item in sequence:
@@ -204,7 +205,7 @@ for index, value in enumerate(sequence):
     # code block
 ```
 
-2. while loop
+### 2. while loop
 ```python
 while condition:
     # code block
@@ -212,7 +213,7 @@ while condition:
 
 ## Control Statements
 
-1. break - Exits the loop
+### 1. break - Exits the loop
 ```python
 for i in range(10):
     if i == 5:
@@ -220,7 +221,7 @@ for i in range(10):
     print(i)
 ```
 
-2. continue - Skips the rest of the current iteration
+### 2. continue - Skips the rest of the current iteration
 ```python
 for i in range(10):
     if i == 5:
@@ -228,7 +229,7 @@ for i in range(10):
     print(i)
 ```
 
-3. pass - Does nothing (placeholder)
+### 3. pass - Does nothing (placeholder)
 ```python
 if condition:
     pass
