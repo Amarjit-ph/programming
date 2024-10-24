@@ -30,3 +30,7 @@ Check out these great tutorials for learning data structures:
 
 ### 🏃‍♀️ Keep Moving
 Feel free to add more content as you progress! Happy coding, and remember that perseverance is key to mastering programming. Keep pushing your limits!
+
+### Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
