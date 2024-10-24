@@ -1,7 +1,9 @@
 
+# String
 
-## 1. Implement algorithm to determine if a string has all unique characters
-```
+## Implement algorithm to determine if a string has all unique characters
+
+```c++
 #include <iostream>
 #include <string>
 
@@ -33,9 +35,9 @@ int main() {
 
 ```
 
-# Sorting String
+## Sorting String
 
-
+```c++
 #include <iostream>
 #include <algorithm>
 
@@ -52,5 +54,4 @@ int main() {
 
     return 0;
 }
-
-// aaijmrt
+```
