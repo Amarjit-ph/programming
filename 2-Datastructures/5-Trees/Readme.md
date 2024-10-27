@@ -1,4 +1,4 @@
-# Tree Data Structure
+# Tree
 A comprehensive guide to Trees and their operations
 
 ## Table of Contents

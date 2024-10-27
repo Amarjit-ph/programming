@@ -1,4 +1,4 @@
-# Stack Data Structure
+# Stack 
 A comprehensive guide to Stack and its operations
 
 ## Table of Contents

@@ -1,4 +1,4 @@
-# Queue Data Structure
+# Queue 
 A comprehensive guide to Queue and its operations
 
 ## Table of Contents

@@ -1,4 +1,4 @@
-# Linked List Data Structure
+# Linked List
 A comprehensive guide to Linked Lists and their operations
 
 ## Table of Contents
