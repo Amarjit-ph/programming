@@ -15,7 +15,7 @@ A comprehensive guide to Arrays and their operations
 - [Common Interview Questions](#common-interview-questions)
 - [Best Practices](#best-practices)
 
-## Introduction
+# Introduction
 An array is a linear data structure that stores elements of the same data type in contiguous memory locations. It's one of the most fundamental and widely-used data structures in computer programming.
 
 ### Key Characteristics
@@ -24,7 +24,9 @@ An array is a linear data structure that stores elements of the same data type i
 - Random access (constant time)
 - Index-based addressing
 
-## Types of Arrays
+[↑ Back to Table of Contents](#table-of-contents)
+
+# Types of Arrays
 1. **One-Dimensional Arrays**
    ```cpp
    int arr[5] = {1, 2, 3, 4, 5};
@@ -44,8 +46,9 @@ An array is a linear data structure that stores elements of the same data type i
    vector<int> dynamicArray;  // C++
    ArrayList<Integer> list;   // Java
    ```
+[↑ Back to Table of Contents](#table-of-contents)
 
-## Memory Representation
+# Memory Representation
 Arrays are stored in contiguous memory locations:
 ```
 [Element0][Element1][Element2]...[ElementN]
@@ -53,7 +56,8 @@ Arrays are stored in contiguous memory locations:
 - Each element occupies the same amount of memory
 - Memory address = Base address + (index × size of data type)
 
-## Advantages and Disadvantages
+[↑ Back to Table of Contents](#table-of-contents)
+# Advantages and Disadvantages
 
 ### Advantages
 | Feature | Description |
@@ -71,7 +75,8 @@ Arrays are stored in contiguous memory locations:
 | Memory Waste | May leave unused memory |
 | Contiguous Memory | Requires continuous block of memory |
 
-## Basic Operations
+[↑ Back to Table of Contents](#table-of-contents)
+# Basic Operations
 
 ### Insertion
 ```cpp
@@ -117,8 +122,8 @@ void traverse(int arr[], int n) {
     }
 }
 ```
-
-## Advanced Operations
+[↑ Back to Table of Contents](#table-of-contents)
+# Advanced Operations
 
 ### Searching
 1. **Linear Search** - O(n)
@@ -143,8 +148,8 @@ int binarySearch(int arr[], int left, int right, int key) {
     return -1;
 }
 ```
-
-## Time Complexity
+[↑ Back to Table of Contents](#table-of-contents)
+# Time Complexity
 
 | Operation | Time Complexity |
 |-----------|----------------|
@@ -159,7 +164,8 @@ int binarySearch(int arr[], int left, int right, int key) {
 - **Static Array**: O(n)
 - **Dynamic Array**: O(n) + some extra space for growth
 
-## Common Interview Questions
+[↑ Back to Table of Contents](#table-of-contents)
+# Common Interview Questions
 1. Find the maximum/minimum element
 2. Find the second largest element
 3. Check if array is sorted
@@ -171,7 +177,8 @@ int binarySearch(int arr[], int left, int right, int key) {
 9. Find pairs with given sum
 10. Kadane's algorithm (maximum subarray sum)
 
-## Best Practices
+[↑ Back to Table of Contents](#table-of-contents)
+# Best Practices
 1. **Always Check Bounds**
    ```cpp
    if (index >= 0 && index < arraySize) {

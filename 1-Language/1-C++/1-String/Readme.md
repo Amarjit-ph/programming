@@ -12,7 +12,6 @@ A comprehensive guide to understanding and working with strings in C++, includin
   - [Manipulating Functions](#manipulating-functions)
 
 # Introduction
-[↑ Back to Table of Contents](#table-of-contents)
 
 In C++, a string is an object of the `std::string` class that represents a sequence of characters. Unlike character arrays, strings in C++ provide dynamic memory allocation and a rich set of built-in functions for manipulation and operations.
 
@@ -21,8 +20,9 @@ Key differences between strings and character arrays:
 - Strings have dynamic memory allocation, while character arrays have static memory allocation
 - Strings can be resized at runtime, preventing memory waste
 
-# String Basics
 [↑ Back to Table of Contents](#table-of-contents)
+
+# String Basics
 
 To use strings in C++, you need to include the string library:
 
@@ -44,9 +44,9 @@ string fullName = firstName.append(lastName);
 string myString = "Hello";
 char firstChar = myString[0]; // Returns 'H'
 ```
+[↑ Back to Table of Contents](#table-of-contents)
 
 # String Operations
-[↑ Back to Table of Contents](#table-of-contents)
 
 ## Input Functions
 

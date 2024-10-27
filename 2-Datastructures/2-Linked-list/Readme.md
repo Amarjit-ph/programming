@@ -31,8 +31,8 @@ public:
     }
 };
 ```
-
-## Types of Linked Lists
+[↑ Back to Table of Contents](#table-of-contents)
+# Types of Linked Lists
 
 ### 1. Singly Linked List
 ```
@@ -66,7 +66,9 @@ public:
 ```
 - Last node points back to first node
 
-## Memory Representation
+[↑ Back to Table of Contents](#table-of-contents)
+
+# Memory Representation
 Unlike arrays, linked lists use dynamic memory allocation:
 - Nodes can be located anywhere in memory
 - Each node stores the address of the next node
@@ -90,7 +92,9 @@ Unlike arrays, linked lists use dynamic memory allocation:
 | Cache Performance | Not cache friendly |
 | Traversal | Must start from head node |
 
-## Basic Operations
+[↑ Back to Table of Contents](#table-of-contents)
+
+# Basic Operations
 
 ### 1. Insertion Operations
 
@@ -163,8 +167,8 @@ void deleteFromEnd(Node*& head) {
     temp->next = nullptr;
 }
 ```
-
-## Advanced Operations
+[↑ Back to Table of Contents](#table-of-contents)
+# Advanced Operations
 
 ### 1. Reversal
 ```cpp
@@ -198,8 +202,8 @@ bool hasCycle(Node* head) {
     return false;
 }
 ```
-
-## Time Complexity
+[↑ Back to Table of Contents](#table-of-contents)
+# Time Complexity
 
 | Operation | Singly Linked | Doubly Linked |
 |-----------|---------------|---------------|
@@ -210,11 +214,12 @@ bool hasCycle(Node* head) {
 | Delete at Head | O(1) | O(1) |
 | Delete at End | O(n) | O(1) |
 
-## Space Complexity
+# Space Complexity
 - **Singly Linked List**: O(n) + extra space for pointer
 - **Doubly Linked List**: O(n) + extra space for two pointers per node
 
-## Common Interview Questions
+[↑ Back to Table of Contents](#table-of-contents)
+# Common Interview Questions
 1. Reverse a linked list (iterative and recursive)
 2. Detect cycle in a linked list
 3. Find middle element
@@ -226,7 +231,8 @@ bool hasCycle(Node* head) {
 9. Add two numbers represented by linked lists
 10. Flatten a multilevel linked list
 
-## Best Practices
+[↑ Back to Table of Contents](#table-of-contents)
+# Best Practices
 1. **Always Handle Edge Cases**
    ```cpp
    // Check for null pointer
@@ -260,15 +266,15 @@ bool hasCycle(Node* head) {
        }
    }
    ```
-
-## Common Pitfalls to Avoid
+[↑ Back to Table of Contents](#table-of-contents)
+# Common Pitfalls to Avoid
 1. Memory leaks when deleting nodes
 2. Not updating head/tail pointers correctly
 3. Not handling null pointers
 4. Losing track of nodes during operations
 5. Incorrect handling of cycles
 
-## Related Topics
+# Related Topics
 - Dynamic Memory Allocation
 - Pointer Manipulation
 - Recursion
@@ -276,7 +282,7 @@ bool hasCycle(Node* head) {
 - Stack and Queue Implementation
 - Memory Management
 
-## Applications
+# Applications
 1. Implementation of stacks and queues
 2. Symbol table management in compilers
 3. Undo functionality in software
@@ -284,3 +290,5 @@ bool hasCycle(Node* head) {
 5. Music player playlists
 6. Browser history management
 7. Image viewer (doubly linked list)
+
+[↑ Back to Table of Contents](#table-of-contents)
