@@ -21,6 +21,24 @@ Start small, grow big. Here’s a roadmap to guide you through your programming 
 3. **Learn Algorithms:** Understand sorting, searching, and problem-solving techniques.
 4. **Solve Problems:** Take on advanced coding challenges on **LeetCode**.
 
+
+### 💼 Key Resources
+- **Coding Interview University:** An amazing resource to prepare for coding interviews—[GitHub Link](https://github.com/jwasham/coding-interview-university)
+
+### 📚 Tutorials
+Check out these great tutorials for learning data structures:
+- **Data Structure Full Course (C and C++):** [YouTube Link](https://youtu.be/B31LgI4Y4DQ)
+
+
+### 🏃‍♀️ Keep Moving
+Feel free to add more content as you progress! Happy coding, and remember that perseverance is key to mastering programming. Keep pushing your limits!
+
+### Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+
+<!--
 ### 🎛️ Categorization :
 
 Categorize the topics within data structures (DS) and algorithms based on their core characteristics:
@@ -91,18 +109,4 @@ The building blocks of efficient data organization and manipulation. These struc
 |----------|--------------|--------------|
 | Hashing | Hash Tables, LRU Cache, Anagram Detection | Hash functions, Open Addressing, Chaining |
 | Computational Geometry | Convex Hull, Line Intersection | Geometric algorithms |
-
-
-### 💼 Key Resources
-- **Coding Interview University:** An amazing resource to prepare for coding interviews—[GitHub Link](https://github.com/jwasham/coding-interview-university)
-
-### 📚 Tutorials
-Check out these great tutorials for learning data structures:
-- **Data Structure Full Course (C and C++):** [YouTube Link](https://youtu.be/B31LgI4Y4DQ)
-
-### 🏃‍♀️ Keep Moving
-Feel free to add more content as you progress! Happy coding, and remember that perseverance is key to mastering programming. Keep pushing your limits!
-
-### Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+-->
