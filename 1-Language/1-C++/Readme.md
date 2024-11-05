@@ -304,9 +304,10 @@ int main()
 ```
 
 ## Continue 
+- It should be inside a loop
+- Skip the execution for an iteration in a loop.
 
 ```c++
-// (Skip the execution)
 int main()
 {
     // loop from 1 to 10
