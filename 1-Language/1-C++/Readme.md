@@ -274,6 +274,7 @@ switch (day) {
 
 ## Jump 
 
+### Break
 ```c++
 // BREAK 
 
@@ -303,7 +304,7 @@ int main()
 
 ```
 
-## Continue 
+### Continue 
 - It should be inside a loop
 - Skip the execution for an iteration in a loop.
 
@@ -326,7 +327,7 @@ int main()
 }
 ```
 
-## Goto
+### Goto 
 ```c++
 void printNumbers()
 {
