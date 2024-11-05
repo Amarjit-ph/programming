@@ -216,7 +216,7 @@ Decision making statements in programming languages decides the direction of flo
    3. goto
    4. return
 
-## if else
+## if else statements
 
 ```c++
 // IF
@@ -242,7 +242,7 @@ else
     cout<<"i is not present";
 ```
 
-## Switch
+## Switch statements
 
 ```c++
 int day = 4;
@@ -272,9 +272,10 @@ switch (day) {
 
 ```
 
-## Jump 
+## Jump statements
 
 ### Break
+- Terminate or exit a loop
 ```c++
 // BREAK 
 
@@ -328,6 +329,7 @@ int main()
 ```
 
 ### Goto 
+- Go to predefine part of code
 ```c++
 void printNumbers()
 {
