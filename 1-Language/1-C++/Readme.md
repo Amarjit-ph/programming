@@ -69,6 +69,21 @@ These data types are built-in or predefined data types
 | Double Floating point | double | 8 bytes |
 | Void | void | No size |
 
+
+The primary differences between float and double data types are:
+
+1. Precision:
+- float: Typically has a precision of about 7 decimal places.
+- double: Typically has a precision of about 15–16 decimal places.
+This means double can represent numbers more accurately than float.
+
+2. Size:
+- float: Occupies 4 bytes (32 bits) of memory.
+- double: Occupies 8 bytes (64 bits) of memory.
+
+As a result, double can store a much larger range of values.
+
+
 ## Derived Data Types
 
 The data-types that are derived from the primitive or built-in datatypes are referred to as Derived Data Types
