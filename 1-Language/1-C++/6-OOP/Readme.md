@@ -166,39 +166,63 @@ class Car: public Vehicle {
 # Constructors
 
 ### Default Constructors
+A constructor that takes no arguments and initializes the object with default values.
 ```c++
 class MyClass {
-  public:
-    MyClass() {
-      cout << "Default constructor called";
+public:
+    int a;
+    MyClass() { // Default constructor
+        a = 0;  // Initialize data member with default value
     }
 };
+
+int main() {
+    MyClass obj;  // Calls the default constructor
+    cout << "a: " << obj.a << endl;  // Output: a: 0
+    return 0;
+}
+
 ```
 
 ### Parameterized Constructors
+A constructor that takes arguments to initialize an object with specific values.
 ```c++
-class Point {
-  private:
-    int x, y;
-  public:
-    Point(int x1, int y1) {
-      x = x1;
-      y = y1;
+class MyClass {
+public:
+    int a;
+    MyClass(int x) {  // Parameterized constructor
+        a = x;
     }
 };
+
+int main() {
+    MyClass obj(10);  // Calls the parameterized constructor
+    cout << "a: " << obj.a << endl;  // Output: a: 10
+    return 0;
+}
 ```
 
 ### Copy Constructors
+A constructor that creates a new object as a copy of an existing object.
 ```c++
-class Point {
-  private:
-    int x, y;
-  public:
-    Point(const Point &p1) {
-      x = p1.x;
-      y = p1.y;
+class MyClass {
+public:
+    int a;
+    MyClass(int x) {  // Parameterized constructor
+        a = x;
+    }
+    MyClass(const MyClass &obj) {  // Copy constructor
+        a = obj.a;
     }
 };
+
+int main() {
+    MyClass obj1(10);  // Calls the parameterized constructor
+    MyClass obj2 = obj1;  // Calls the copy constructor
+    cout << "obj1.a: " << obj1.a << endl;  // Output: obj1.a: 10
+    cout << "obj2.a: " << obj2.a << endl;  // Output: obj2.a: 10
+    return 0;
+}
 ```
 [↑ Back to Top](#table-of-contents)
 
