@@ -398,5 +398,6 @@ int main() {
     return 0;
 }
 ```
-Here, LibraryA and LibraryB are namespaces that keep each version of print separate, so you can use both without any conflict
+Here, LibraryA and LibraryB are namespaces that keep each version of print separate, so you can use both without any conflict.
+
 [↑ Back to Table of Contents](#table-of-contents)
