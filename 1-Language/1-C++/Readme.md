@@ -19,6 +19,7 @@ General-purpose programming language widely used today for competitive programmi
    - [Jump](#jump)
    - [Continue](#continue)
    - [Goto](#Goto)
+8. [Name space](#name-space)
 
 # Introduction
 
@@ -364,3 +365,37 @@ int main()
 }
 ```
 [↑ Back to Table of Contents](#table-of-contents)
+
+
+# Name space
+A namespace in C++ is like a label that groups related code together. It helps keep names (like variable names, function names, class names) organized and avoids conflicts when different parts of a program have the same name.
+
+Think of namespaces like folders on your computer. Just as folders help organize files and avoid name conflicts (you can have two files named "notes.txt" in different folders), namespaces allow you to have different "versions" of names in different parts of a program.
+
+For example, in C++, many standard library items (like cout and string) are placed in the std namespace. So, to use them, you need to "tell" C++ to look inside the std namespace by using std::. This is why we write std::cout instead of just cout.
+
+Example:
+Let's say you have two libraries with functions named print. Without namespaces, it would be confusing for the program to know which print function to use.
+
+With namespaces, you could do this:
+
+```
+namespace LibraryA {
+    void print() {
+        std::cout << "Print from LibraryA\n";
+    }
+}
+
+namespace LibraryB {
+    void print() {
+        std::cout << "Print from LibraryB\n";
+    }
+}
+
+int main() {
+    LibraryA::print();  // Calls the print function in LibraryA
+    LibraryB::print();  // Calls the print function in LibraryB
+    return 0;
+}
+```
+Here, LibraryA and LibraryB are namespaces that keep each version of print separate, so you can use both without any conflict
