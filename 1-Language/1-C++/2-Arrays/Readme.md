@@ -13,6 +13,7 @@ A comprehensive guide to understanding and working with arrays in C++, including
 - [Two-Dimensional Arrays](#two-dimensional-arrays)
   - [2D Array Declaration](#2d-array-declaration)
   - [2D Array Traversal](#2d-array-traversal)
+- [Array Functions](#array-functions)
 - [Time Complexity](#time-complexity)
 - [Best Practices](#best-practices)
 - [Memory Considerations](#memory-considerations)
@@ -109,6 +110,21 @@ for (int i = 0; i < 3; i++) {
 }
 ```
 [↑ Back to Table of Contents](#table-of-contents)
+
+# Array Functions
+
+Using std::array from the <array> library for fixed-size arrays
+
+```
+#include <array>
+
+std::array<int, 5> arr = {1, 2, 3, 4, 5};
+arr.size();    // Get the size of the array
+arr.front();   // Access the first element
+arr.back();    // Access the last element
+arr.at(2);     // Access element with bounds checking
+```
+
 # Time Complexity
 
 Common array operations and their time complexities:
