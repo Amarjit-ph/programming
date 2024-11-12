@@ -379,7 +379,7 @@ Let's say you have two libraries with functions named print. Without namespaces,
 
 With namespaces, you could do this:
 
-```
+```c++
 namespace LibraryA {
     void print() {
         std::cout << "Print from LibraryA\n";
@@ -399,3 +399,4 @@ int main() {
 }
 ```
 Here, LibraryA and LibraryB are namespaces that keep each version of print separate, so you can use both without any conflict
+[↑ Back to Table of Contents](#table-of-contents)
