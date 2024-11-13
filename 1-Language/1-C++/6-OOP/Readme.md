@@ -17,6 +17,7 @@
   - [Copy Constructors](#copy-constructors)
 - [Destructors](#destructors)
 - [Scope Resolution Operator](#scope-resolution-operator)
+- [Arrow Operator](#arrow-operator)
 
 # Introduction to OOP
 
@@ -144,6 +145,105 @@ class Calculator {
     double add(double x, double y) { return x + y; }
 };
 ```
+Example of Operator overloading
+
+Operator overloading lets you define how operators work with your custom classes.
+```c++
+class Point {
+private:
+    int x, y;
+
+public:
+    // Constructor
+    Point(int x_coord = 0, int y_coord = 0) : x(x_coord), y(y_coord) {}
+
+    // Operator overloading for addition (+)
+    Point operator+(const Point& p) {
+        Point result;
+        result.x = this->x + p.x;
+        result.y = this->y + p.y;
+        return result;
+    }
+
+    // Operator overloading for equality check (==)
+    bool operator==(const Point& p) {
+        return (this->x == p.x && this->y == p.y);
+    }
+
+    // Function to display point
+    void display() {
+        cout << "(" << x << ", " << y << ")" << endl;
+    }
+};
+
+int main() {
+    // Create two points
+    Point p1(1, 2);
+    Point p2(3, 4);
+
+    // Using overloaded + operator
+    Point p3 = p1 + p2;
+    
+    cout << "P1: ";
+    p1.display();  // Output: (1, 2)
+    
+    cout << "P2: ";
+    p2.display();  // Output: (3, 4)
+    
+    cout << "P1 + P2 = ";
+    p3.display();  // Output: (4, 6)
+
+    // Using overloaded == operator
+    if (p1 == p2)
+        cout << "Points are equal" << endl;
+    else
+        cout << "Points are not equal" << endl;
+
+    return 0;
+}
+```
+
+Example of function overriding
+
+Function overriding is a feature in object-oriented programming where a derived class (child class) provides a specific implementation of a method that is already defined in its base class (parent class). When you call the overridden method through a derived class object, it executes the derived class's version of the method instead of the base class's version.
+
+```c++
+class Animal {
+public:
+    // Virtual function in base class
+    virtual void makeSound() {
+        cout << "Animal makes a sound" << endl;
+    }
+    
+    // Regular function that won't be overridden
+    void eat() {
+        cout << "Animal is eating" << endl;
+    }
+};
+
+class Dog : public Animal {
+public:
+    // Override the makeSound function
+    void makeSound() override {
+        cout << "Dog says: Woof! Woof!" << endl;
+    }
+};
+
+int main() {
+    Animal animal;
+    Dog dog;
+    
+    cout << "Direct calls:" << endl;
+    animal.makeSound();  // Output: Animal makes a sound
+    dog.makeSound();     // Output: Dog says: Woof! Woof!
+    
+    cout << "\nUsing pointer:" << endl;
+    Animal* ptr = &dog;
+    ptr->makeSound();    // Output: Dog says: Woof! Woof!
+    
+    return 0;
+}
+```
 
 ### Inheritance
 
@@ -248,6 +348,39 @@ The scope resolution operator (::) specifies the context to which an identifier 
 
 ```c++
 class_name::member_name
+```
+
+[↑ Back to Top](#table-of-contents)
+
+# Arrow Operator
+The arrow operator (->) in C++ is used to access members (methods or variables) of a class or struct through a pointer. It's a shorthand notation that combines dereferencing and member access.
+
+```c++
+class Person {
+public:
+    string name;
+    void display() {
+        cout << "Name: " << name << endl;
+    }
+};
+
+int main() {
+    // Using dot operator (.)
+    Person person1;
+    person1.name = "John";    // Using . with object
+    person1.display();
+
+    // Using arrow operator (->)
+    Person* ptr = &person1;    // Pointer to person1
+    ptr->name = "John";       // Same as (*ptr).name
+    ptr->display();           // Same as (*ptr).display()
+
+    // Both lines below do the same thing:
+    (*ptr).display();         // Dereference then access
+    ptr->display();           // Arrow operator does both
+
+    return 0;
+}
 ```
 
 [↑ Back to Top](#table-of-contents)
