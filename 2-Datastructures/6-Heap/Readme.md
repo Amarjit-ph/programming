@@ -17,7 +17,33 @@ A comprehensive guide to Heaps and their operations
 - [Applications](#applications)
 
 ## Introduction
-A heap is a specialized tree-based data structure that satisfies the heap property. In a max heap, for any given node I, the value of I is greater than or equal to the values of its children. In a min heap, the value of I is less than or equal to the values of its children.
+A heap is a specialized tree-based data structure that satisfies the heap property.
+
+Max-Heap: 
+- The value of each parent node is greater than or equal to the values of its children.
+- The largest value is always at the root.
+
+```
+    50
+   /  \
+  30   20
+ / \   /
+10 15 5
+
+```
+
+Min-Heap:
+- The value of each parent node is less than or equal to the values of its children.
+- The smallest value is always at the root.
+
+```
+    5
+   / \
+  10 15
+ / \   \
+30 20  50
+
+```
 
 ### Key Characteristics
 - Complete binary tree structure
