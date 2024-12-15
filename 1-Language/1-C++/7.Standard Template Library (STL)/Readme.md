@@ -39,6 +39,59 @@ vec.pop_back();      // Remove last element
 vec[0];              // Access element
 vec.size();          // Get size
 ```
+```C++
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<int> numbers; // Create an empty vector
+
+    // 1. Insert elements
+    numbers.push_back(10); // Add 10 to the end
+    numbers.push_back(20); // Add 20 to the end
+    numbers.push_back(30); // Add 30 to the end
+
+    // 2. Iterate using auto iterator
+    std::cout << "Elements in the vector: ";
+    for (auto it = numbers.begin(); it != numbers.end(); ++it) {
+        std::cout << *it << " ";
+    }
+    std::cout << std::endl;
+
+    // 3. Insert at a specific position
+    numbers.insert(numbers.begin() + 1, 15); // Insert 15 at the second position
+
+    std::cout << "After inserting 15 at position 2: ";
+    for (const auto &num : numbers) { // Range-based for loop
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    // 4. Erase an element
+    numbers.erase(numbers.begin() + 2); // Erase the 3rd element (20)
+
+    std::cout << "After erasing the 3rd element: ";
+    for (const auto &num : numbers) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    // 5. Get size and capacity
+    std::cout << "Size: " << numbers.size() << ", Capacity: " << numbers.capacity() << std::endl;
+
+    // 6. Clear all elements
+    numbers.clear();
+    std::cout << "After clearing, size: " << numbers.size() << ", Capacity: " << numbers.capacity() << std::endl;
+
+    // 7. Check if vector is empty
+    if (numbers.empty()) {
+        std::cout << "The vector is now empty." << std::endl;
+    }
+
+    return 0;
+}
+
+```
 
 ### List
 Doubly-linked list:
@@ -51,6 +104,18 @@ lst.push_front(0);   // Add at beginning
 lst.sort();          // Sort elements
 lst.reverse();       // Reverse order
 ```
+
+| **Feature**             | **`std::vector`**                         | **`std::list`**                          |
+|-------------------------|-------------------------------------------|------------------------------------------|
+| **Underlying Structure**| Dynamic array (contiguous memory).        | Doubly linked list (non-contiguous memory). |
+| **Element Access**      | Fast random access (`O(1)` via index).    | Sequential access (`O(n)` traversal).    |
+| **Insertion/Deletion**  | - Fast at the end (`O(1)`).               | - Fast at the beginning, middle, or end (`O(1)` if iterator provided). |
+|                         | - Slow at the middle/beginning (`O(n)`).  |                                          |
+| **Memory Efficiency**   | Contiguous memory, cache-friendly.        | Higher memory overhead (storing pointers). |
+| **Iterator Stability**  | Invalidated by most insert/erase operations (except at the end). | Stable (unless the specific element is erased). |
+| **Use Cases**           | Random access, low insertion/deletion needs. | Frequent insertion/deletion in non-sequential positions. |
+| **Sorting**             | Supports `std::sort` directly.            | Requires custom sorting or conversion.  |
+
 
 ### Deque
 Double-ended queue:
